@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        nav{
+    width: 100%;
+    height: 60px; 
+    background: rgba(66, 63, 63, 0.3);
+    position: fixed;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 2px 10px #000000;
+    z-index: 100;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 5vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav ul li a :hover{
+    
+    color: rgb(66, 59, 59);
+    
+}
+nav ul li a :active{
+    color:rgba(66, 63, 63, 0.9);
+}
+
+.bg{
+width: 100%;
+height: 100vh;
+background: url('images/support1.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content{
+    color: rgb(7, 6, 6);
+    text-align: center;
+    font-size: 30px;
+    width: 60%;
+}
+.content form input[type ="text"]{
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul type = 'none'>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href=" "><b>Support</b></a></li>
+            <li><a href="about.html"><b>About us</b></a></li>
+        </ul>
+     </nav> 
+     <header>
+         <div class="bg">
+        
+             <div class="content">
+<p>
+    we know that you are very proud of us but as you know we are noob so that we need your 
+                    segestion for a better improvment. By providing your idea on the space bellow(not the astronomical space) 
+                you will be a supporter to us
+</p>
+<form action="support.html" >
+    <input type="text" maxlength="1000">
+</form>
+             </div>
+         </div>
+         </div>
+     </header>
+</body>
+</html>
